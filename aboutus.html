@@ -116,11 +116,11 @@
                 </ul> -->
 
                 <!-- <div class="tab-content"> -->
-                <div class="accordion" role="tablist">
+                <div id="accordion" role="tablist">
                     <div class="card">
                         <div class="card-header" role="tab" id="peterhead">
                             <h3 class="mb-0">
-                                <a data-toggle="collapse" href="#peter" data-parent="#accordion">Peter Pan <small>Chief Epicurious Officer</small></a>
+                                <a data-toggle="collapse" data-parent="#accordion" href="#peter">Peter Pan <small>Chief Epicurious Officer</small></a>
                             </h3>
                         </div>
                         <div class="collapse show" id="peter" role="tabpanel">
@@ -132,7 +132,7 @@
                     <div class="card">
                         <div class="card-header" role="tab" id="dannyhead">
                             <h3 class="mb-0">
-                                <a data-toggle="collapse" class="collapsed" href="#danny" data-parent="#accordion">Dhanasekaran Witherspoon <small>Chief Food Officer</small></a>
+                                <a data-toggle="collapse" href="#danny" data-parent="#accordion" class="collapsed">Dhanasekaran Witherspoon <small>Chief Food Officer</small></a>
                             </h3>
                         </div>
                         <div class="collapse" id="danny" role="tabpanel">
@@ -144,7 +144,7 @@
                     <div class="card">
                         <div class="card-header" role="tab" id="agumbehead">
                             <h3 class="mb-0">
-                                <a data-toggle="collapse" class="collapsed" href="#agumbe" data-parent="#accordion">Agumbe Tang <small>Chief Taste Officer</small></a>
+                                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#agumbe">Agumbe Tang <small>Chief Taste Officer</small></a>
                             </h3>
                         </div>
                         <div class="collapse" id="agumbe" role="tabpanel">
@@ -156,10 +156,10 @@
                     <div class="card">
                         <div class="card-header" role="tab" id="albertohead">
                             <h3 class="mb-0">
-                                <a data-toggle="collapse" class="collapsed" href="#alberto" data-parent="#accordion">Alberto Somayya <small>Executive Chef</small></a>
+                                <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#alberto">Alberto Somayya <small>Executive Chef</small></a>
                             </h3>
                         </div>
-                        <div class="collapse" id="alberto" role="tabpanel">
+                        <div class="collapse" role="tabpanel" id="alberto">
                             <div class="card-block">
                                 <p class="hidden-xs-down">Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. He says, <em>Put together the cuisines from the two craziest cultures, and you get a winning hit! Amma Mia!</em></p>
                             </div>
