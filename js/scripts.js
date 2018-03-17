@@ -13,4 +13,12 @@ $(document).ready(function() {
         }
         
     });
+
+    $("#loginModalBtn").click(function() {
+        $("#loginModal").modal();
+    })
+
+    $("#reserveModalBtn").click(function() {
+        $("#reserveModal").modal();
+    });
 });
